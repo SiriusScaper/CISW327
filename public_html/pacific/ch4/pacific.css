@@ -1,0 +1,51 @@
+body {
+  background-color: #39C;
+  background-image: linear-gradient(to bottom, #39C, #C2E0F0, #39C);
+  color: #666;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #000033;
+  color: #FFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+h1 {
+  line-height: 200%;
+}
+
+nav {
+  font-weight: bold;
+  background-color: #90C7E3;
+}
+
+h2 {
+  color: #39C;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+dt {
+  color: #000033;
+  font-weight: bold;
+}
+
+.resort {
+  color: #000033;
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: .70em;
+  font-style: italic;
+  text-align: center;
+}
+
+#wrapper {
+  background-color: #fff;
+  min-width: 700px;
+  max-width: 1024px;
+  /*width: 80%;*/
+  margin-right: auto;
+  margin-left: auto;
+}
