@@ -1,7 +1,11 @@
 body {
-  background: rgba(250, 248, 248, 0.808);
+  background-color: rgba(250, 248, 248, 0.808);
+  color: #181818;
+  font-family: Arial, Verdana, sans-serif;
 }
 
 #wrapper {
-  
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
