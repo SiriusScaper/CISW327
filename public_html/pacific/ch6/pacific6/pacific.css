@@ -5,15 +5,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 header {
   background-color: #000033;
   color: #FFF;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: block;
 } 
 
 h1 {
@@ -31,7 +26,6 @@ nav {
   float: left;
   width: 160px;
   padding: 0;
-  display: block;
 }
 
 nav a {
@@ -53,6 +47,15 @@ nav a:hover {
 nav ul {
   list-style: none;
   padding-left: 1em;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #FFF;
+  margin-left: 170px;
 }
 
 h2 {
@@ -78,21 +81,10 @@ footer {
   padding: 1em;
   background-color: #FFF;
   margin-left: 170px;
-  display: block;
 }
 
 h3 {
   color: #000033
-}
-
-main {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  background-color: #FFF;
-  margin-left: 170px;
-  display: block;
 }
 
 #wrapper {
@@ -124,4 +116,12 @@ main {
   background: url(imgs/trail.jpg), no-repeat;
   background-size: 100% 100%;
   margin-left: 170px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header, nav, main, footer {
+  display: block;
 }
